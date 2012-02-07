@@ -1,0 +1,6 @@
+[12-Dec-2011 14:38:27] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/cardib5/public_html/realtime/refresh.php on line 13
+[17-Jan-2012 13:00:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/cardib5/public_html/realtime/freezer.php on line 8
+[17-Jan-2012 14:00:11] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/cardib5/public_html/realtime/freezer.php on line 8
+[17-Jan-2012 14:30:11] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/cardib5/public_html/realtime/freezer.php on line 8
+[17-Jan-2012 14:45:13] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/cardib5/public_html/realtime/freezer.php on line 8
+[23-Jan-2012 02:17:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cardib5/public_html/realtime/freezer.php on line 17

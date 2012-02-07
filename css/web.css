@@ -1,0 +1,1168 @@
+body{background:url(../images/newbg.png) repeat-x;padding:none;margin:none}#bigcontainer{margin-left:auto;margin-right:auto;height:90%;width:90%}#wrap{width:1250px;margin-left:auto;margin-right:auto}#stuffcontainer{position:relative;margin-left:auto;margin-right:auto;width:1050px;height:600px}#bar{background:url(../images/headerbg.png) repeat-x;position:absolute;left:0;top:0;width:100%;height:53px}#header{position:relative;height:45px;background-position:bottom;margin:none;padding:none}#fauxheader{position:relative;height:45px;margin:none;padding:none;border-bottom:1px solid white}#header ul{list-style:none;margin:0;padding:0;text-decoration:none}#quickview .bikes_quickview{width:50px;height:30px}#quickview .ellipticals_quickview{width:47px;height:30px}#quickview .treadmills_quickview{width:56px;height:30px}#banner{position:relative}#banner img{height:45px;width:230px}#main{position:relative;height:600px;border-left:1px solid #dedede;border-right:1px solid #dedede;border-bottom:1px solid #dedede;-webkit-box-shadow:0 1px 5px #454545;box-shadow:0 1px 5px #454545;border-bottom-right-radius:5px;border-bottom-left-radius:5px}#nav{display:none;position:absolute;left:-97px;width:9%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;border-bottom-left-radius:5px;-webkit-box-shadow:0 1px 2px #454545;box-shadow:0 1px 2px #454545;background:url(../images/navback.png) repeat-y;z-index:20}#nav ul{padding:0;margin-right:1em;margin-left:.5em}#nav ul li{display:block}#footer{position:absolute;bottom:.0px;text-align:center;height:50px;width:100%;margin:none;padding:none;overflow:hidden}.footeritems{text-align:center;width:50%;margin-left:auto;margin-right:auto;padding-right:50px}.footeritem{margin:0 5px;font-family:Optima;font-size:.7em;color:#555}.footeritem a{text-decoration:none;color:inherit}.copy{margin:0 5px;font-family:Optima;font-size:.7em;color:#555}p{text-align:center;font-family:optima;font-size:medium}.splash{position:relative;top:200px;margin-left:auto;margin-right:auto;border-bottom:1px solid white;border-top:1px solid white;text-align:center}#footer ul{list-style:none}li{display:inline}.splash a{text-decoration:none;color:#555}#content{display:none;height:80%;width:100%;margin-left:auto;margin-right:auto;overflow:hidden}.nav{font-family:optima}.navtitle{font-size:18px}.navitem{display:block;margin-top:10px;font-family:optima;font-size:.9em}.navitem li a{text-decoration:none;color:#555;padding:10px 0;display:block}.optima{font-family:Optima}#content img{margin:none;padding:none}#gymview img#wall{position:absolute;top:100px;left:-15px width:400px;}#gymview{position:relative;margin-left:auto;margin-right:auto;height:100%}.qtipcontent{font-family:optima;size:.7em;color:white}#clock{left:150px;float:left;font-family:optima;font-size:.8em;height:90%;width:30%;color:#1f1f1f;padding:none}#clock #bottom{position:absolute;bottom:0}p#about{display:block;text-align:left}img.machine{border:none;padding:none;margin:none}#treadmills{position:absolute;bottom:3.0em;left:1.0em;padding:none;margin:none;z-index:4;}#bikes{position:absolute;bottom:10.0em;left:4.0em;padding:none;margin:none;z-index:2;}#ellipticals{position:absolute;bottom:17.0em;left:7.0em;padding:none;margin:none;z-index:1;}.treadmill{display:block;float:left;height:149px;width:105px;margin-right:5px;}.treadmill img{height:149px;width:105px}.bike{display:block;float:left;height:154px;width:85px}.elliptical{display:block;float:left;height:167px;width:80px;margin-right:1.0em}.elliptical img{height:156px;width:80px}.bike img{height:154px;width:85px}#wall{position:absolute;bottom:-1.0em;left:24.7em }#wall2{position:absolute;bottom:-1.0em;left:-0.4em}#wall3{position:absolute;bottom:-1.0em;right:-1.4em}#wall3 img{height:102px}#wall2 img{}#wall img{height:59px; }#trendsdata{margin:0 5px;padding:0 10px;padding-top:10px}#trendsdata img{margin-left:auto;margin-right:auto;margin-top:6.0em;}#zoomlogo{position:relative;bottom:-2.7em}#zoomlogo .logo{height:15px;width:300px;font-family:garamond;font-size:x-small;margin-left:auto;margin-right:auto}#zoomlogo .logo img{height:15px;width:218px}#inputcenter{width:25%;height:10%;margin-left:auto;margin-right:auto}#inputcenter form{margin-left:auto;margin-right:auto}#inputcenterdata{margin-left:auto;margin-right:auto;text-align:center}
+
+body{
+
+background:url(../images/newbg.png) repeat-x;
+padding:none;
+margin:none;
+
+}
+
+#bigcontainer{
+
+margin-left:auto;
+margin-right:auto;
+height:90%;
+width:90%;
+
+}
+
+#wrap{
+
+width:1250px;
+margin-left:auto;
+margin-right:auto;
+
+
+}
+
+#stuffcontainer{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:1050px;
+height:600px;
+
+}
+
+#bar{
+
+
+background:url(../images/headerbg.png) repeat-x;
+position:absolute;
+left:0px;
+top:0px;
+width:100%;
+height:53px;
+
+}
+
+#header
+{
+
+position:relative;
+height:45px;
+background-position: bottom;
+margin:none;
+padding:none;
+
+
+}
+
+#fauxheader
+{
+
+position:relative;
+height:45px;
+margin:none;
+padding:none;
+border-bottom:1px solid white;
+
+
+}
+
+#header ul{
+
+list-style:none;
+margin:0;
+padding:0;
+text-decoration: none;
+
+} 
+
+#quickview{
+position:absolute;
+right:0px;
+top:5px;
+font-family:optima;
+background-color:#6CA1D2;
+margin:none;
+display:none;
+border-top:1px solid #D1EEEE;
+border-left:1px solid #D1EEEE;
+border-right:1px solid #D1EEEE;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+padding:0px 5px;
+padding-top:5px;
+text-align:right;
+width:450px;
+-webkit-box-shadow: 1px -1px 1px #454545;
+box-shadow: 1px -1px 1px #454545;
+z-index:4;
+}
+
+#quickview .bikes_quickview{
+
+width:50px;
+height:32px;
+position:relative;
+bottom:-2px;
+
+}
+
+#quickview .ellipticals_quickview{
+
+width:47px;
+height:30px;
+
+}
+
+#quickview .treadmills_quickview{
+
+width:56px;
+height:30px;
+
+}
+
+#banner{
+
+position:absolute;
+
+
+}
+
+#banner img{
+
+height:45px;
+width:230px;
+
+}
+
+
+
+#main{
+
+position:relative;
+height:600px;
+border-left:1px solid #DEDEDE;
+border-right:1px solid #DEDEDE;
+border-bottom:1px solid #DEDEDE;
+-webkit-box-shadow: 0px 1px 5px #454545;
+box-shadow: 0px 1px 5px #454545;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+
+#nav{
+
+display:none;
+position:absolute;
+left:-108px;
+width:10%;
+border-left:1px solid #DEDEDE;
+border-bottom:1px solid #DEDEDE;
+border-bottom-left-radius: 5px;
+-webkit-box-shadow: 0px 1px 2px #454545;
+box-shadow: 0px 1px 2px #454545;
+background:url(../images/navback.png) repeat-y;
+z-index:20;
+
+}
+
+#nav ul{
+
+padding: 0;
+margin-right: 1em;
+margin-left:0.5em;
+
+}
+
+#nav ul li{
+
+display:block;
+
+}
+
+#footer{
+position:absolute;
+bottom:0.0px;
+text-align:center;
+height:50px;
+width:100%;
+margin:none;
+padding:none;
+overflow:hidden;
+/*background: url(../images/footertop.png) no-repeat;
+background-position: top;
+*/
+}
+
+.footeritems{
+
+text-align:center;
+width:50%;
+margin-left:auto;
+margin-right:auto;
+padding-right:50px;
+
+}
+
+.footeritem{
+
+margin:0px 5px;
+font-family:Optima;
+font-size:0.7em;
+color:#555555;
+
+}
+
+.footeritem a{
+
+text-decoration:none;
+color:inherit;
+
+}
+
+.copy{
+
+margin:0px 5px;
+font-family:Optima;
+font-size:0.7em;
+color:#555555;
+
+}
+
+p{
+
+text-align:center;
+font-family:optima;
+font-size:medium;
+
+}
+
+.desc{
+
+font-size:x-large;
+
+}
+
+.splash{
+
+position:relative;
+top:200px;
+margin-left:auto;
+margin-right:auto;
+border-bottom:1px solid white;
+border-top:1px solid white;
+text-align:center;
+
+}
+
+.alert{
+
+color:red;
+
+}
+
+#footer ul{
+
+list-style:none;
+
+}
+
+#footer ul li img{
+
+
+}
+
+li{
+
+display:inline;
+
+}
+
+.splash a{
+
+text-decoration:none;
+color:#555555;
+
+}
+
+
+#content{
+
+display:none;
+height:80%;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+overflow:hidden;
+
+}
+
+
+
+.nav{
+
+font-family:optima;
+
+}
+
+.navtitle{
+
+font-size:18px;
+
+}
+
+.navitem{
+
+display:block;
+margin-top:10px;
+font-family:optima;
+font-size:0.9em;
+
+
+
+}
+
+.navitem li a{
+
+text-decoration:none;
+color:black;
+padding:10px 0px;
+display:block;
+
+
+}
+
+.optima{
+
+font-family: Optima;
+
+}
+
+#content img{
+
+margin:none;
+padding:none;
+
+
+}
+
+#gymview img#wall{
+
+position:absolute;
+top:100px;
+left:-15px;
+
+}
+
+#gymview{
+
+position:relative;
+margin-left:auto;
+margin-right:auto;
+height:100%;
+
+
+}
+
+
+.qtipcontent{
+
+font-family:optima;
+size:0.7em;
+color:white;
+
+}
+
+#clock{
+
+left:150px;
+float:left;
+font-family:optima;
+font-size:0.8em;
+height:90%;
+width:30%;
+color: #1F1F1F;
+padding:none;
+
+}
+
+#clock #bottom{
+
+position:absolute;
+bottom:0px;
+
+}
+
+
+p#about{
+
+display:block;
+text-align:left;
+
+}
+
+img.machine{
+
+border:none;
+padding:none;
+margin:none;
+
+}
+
+/*This is where the tufts gym specific stuff resides*/
+
+#treadmills{
+
+position:absolute;
+bottom:1.5em;
+left: 1.0em;
+padding:none;
+margin:none;
+z-index:4;
+}
+
+#bikes{
+
+position:absolute;
+bottom: 8.6em;
+left: 3.0em;
+padding:none;
+margin:none;
+z-index:2;
+
+}
+
+#ellipticals{
+
+position:absolute;
+bottom: 16.0em;
+left: 5.7em;
+padding:none;
+margin:none;
+z-index: 1;
+
+}
+
+
+
+.treadmill{
+
+display:block;
+float:left;
+height:149px;
+width:105px;
+
+
+}
+
+.treadmill .available{
+
+height:149px;
+width:105px;
+background-image: url('../images/icons/granola.png');
+
+}
+.treadmill img{
+
+height:149px;
+width:105px;
+
+
+}
+
+.bike{
+
+display:block;
+float:left;
+height:174px;
+width:85px;
+margin-left:5px;
+/*border:1px solid red;*/
+
+}
+
+.elliptical{
+
+display:block;
+float:left;
+height:156px;
+width:80px;
+margin-right:1.0em;
+
+}
+
+
+
+#wall{
+
+position:absolute;
+bottom:-0.9em;
+left:25.0em;
+}
+
+#wall2{
+
+position:absolute;
+bottom:-1.0em;
+left:-0.8em;
+
+}
+
+#wall3{
+
+position:absolute;
+bottom:-0.9em;
+right:-2.2em;
+
+}
+
+#wall3 img{
+
+height:120px;
+
+}
+
+#wall2 img{
+
+width:345px;
+height:70px;
+}
+
+#wall img{
+
+height:70px;
+width:555px;
+
+}
+
+#trendsdata{
+
+margin:0px 5px;
+padding:0px 10px;
+padding-top:10px;
+
+}
+
+#trendsdata img{
+
+margin-left:auto;
+margin-right:auto;
+margin-top:6.0em;
+
+}
+
+#zoomlogo{
+
+position: relative;
+bottom:-2.7em;
+
+}
+
+#zoomlogo .logo{
+
+height:15px;
+width:300px;
+font-family:garamond;
+font-size:x-small;
+margin-left:auto;
+margin-right:auto;
+
+
+}
+
+#zoomlogo .logo img{
+
+height:15px;
+width:218px;
+
+}
+
+#inputcenter{
+
+width:25%;
+height:10%;
+margin-left:auto;
+margin-right:auto;	
+
+
+}
+
+#inputcenter form{
+
+margin-left:auto;
+margin-right:auto;	
+
+}
+
+
+#inputcenterdata{
+
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+
+}
+
+#zoomlogobeta{
+
+position: relative;
+bottom:-13em;
+
+}
+
+#zoomlogobeta .logo{
+
+text-align:center;
+font-family:garamond;
+font-size:x-small;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#loginerror{
+
+display:none;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font-family:garamond;
+font-size:medium;
+margin-bottom:15px;
+
+}
+
+.treadmillwhitespace{
+
+float:left;
+width:90px;
+height:150px;
+
+}
+
+.betainfo{
+
+text-align:left;
+font-family:Optima;
+font-size: medium;
+
+}
+
+#betastuff{
+
+padding:10px;
+
+}
+
+#confirminvite{
+
+display:none;
+width:600px;
+
+}
+
+.quickviewwriting{
+
+font-family: optima;
+font-size:0.6em;
+text-transform:uppercase;
+letter-spacing: 0.1em;
+text-shadow: #666666 1px 1px 1px;
+
+}
+
+.quickviewnum{
+
+font-weight:bold;
+font-family:Optima;
+padding-left:8px;
+/*text-shadow: #000 1px 1px 1px;*/
+
+}
+
+.question{
+
+font-size:1.0em;
+
+}
+
+.answer{
+
+font-size:0.8em;
+
+}
+
+#aboutcontainer{
+
+margin:0px 5px;
+padding:0px 10px;
+padding-top:10px;
+
+}
+
+img.machinesavail{
+
+height:15px;
+width:200px;
+margin:0px 10px;
+
+}
+
+#login{
+
+position:relative;
+width:500px;
+margin-right:auto;
+margin-left:auto;
+text-align:center;
+
+
+}
+
+#logininner{
+
+text-align:left;
+width:70%;
+margin-left:33%;
+
+
+}
+
+.optima{
+
+text-align:center;
+font-family:optima;
+font-size:medium;
+
+}
+
+a#feedback{
+	height:15px;
+	overflow:hidden;
+}
+
+.feedbackmenu{
+
+font-family:Optima;
+font-size:0.8em;
+
+}
+
+#slider{
+
+width:150px;
+position:absolute;
+right:320px;
+bottom:0px;
+font-family:optima;
+font-size:medium;
+color:#555555;
+
+}
+
+.records{
+
+z-index:20000;
+color:#555555;
+
+}
+
+.disabled{
+
+font-family:optima;
+font-size:medium;
+color:white;
+
+}
+
+img{
+border:none;
+}
+
+#returnmessage{
+
+font-family:Optima;
+font-size: 1.0em;
+
+}
+
+/* table stuff */
+
+#hourswrap{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+margin-top:30px;
+height:90%;
+width:80%;
+}
+
+#complex{
+
+float:left;
+width:30%;
+}
+
+#day{
+float:left;
+display:none;
+}
+
+#hoursresult{
+
+float:left;
+width:30%;
+height:92%;
+background-color: white;
+display:none;
+font-family:optima;
+font-size:1.2em;
+text-align:center;
+-webkit-box-shadow: -2px 1px 10px #454545;
+box-shadow: -2px 1px 10px #454545;
+padding:22px 0px;
+z-index:-1;
+}
+
+table{
+font-family:optima;
+border-collapse:collapse;
+margin-left:auto;
+margin-right:auto;
+}
+
+td{
+
+padding:none;
+margin:none;
+text-align:center;
+width:30%;
+background-color: #EEE9E9;
+cursor:pointer;
+font-size:18px;
+padding:20px 0px;
+border:1px solid white;
+-webkit-box-shadow: -2px 1px 10px #454545;
+box-shadow: -2px 1px 10px #454545;
+
+}
+
+
+tr{
+padding:none;
+margin:none;
+width:100%;
+}
+
+.filler{
+color:#EEE9E9;
+}
+
+input.submit{
+
+border:1px outset blue;
+
+}
+
+/* privacy policy */
+
+#privacy{
+height:650px;
+width:900px;
+padding-right:10px;
+}
+
+.small{
+
+font-size:0.8em;
+
+}
+
+.treadmill .available{
+height:149px;
+width:110px;
+background-image: url('../images/icons/granola.png');
+background-position: -10px 0px;
+
+}
+
+.treadmill .runfront1{
+
+height:149px;
+width:105px;
+background-image: url('../images/icons/granola.png');
+background-position: -125px 0px;
+
+}
+
+.treadmill .runfront2{
+
+height:149px;
+width:105px;
+background-image: url('../images/icons/granola.png');
+background-position: -240px 0px;
+}
+
+.treadmill .runfront3{
+
+height:149px;
+width:105px;
+background-image: url('../images/icons/granola.png');
+background-position: -358px 0px;
+
+}
+
+.treadmill .runfront4{
+
+height:149px;
+width:105px;
+background-image: url('../images/icons/granola.png');
+background-position: -480px 0px;
+
+}
+
+.treadmill .outoforder{
+
+height:149px;
+width:105px;
+background-image: url('../images/icons/granola.png');
+background-position: -602px 0px;
+
+}
+
+
+
+.elliptical .available{
+
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: 0px -168px;
+
+}
+
+.elliptical .gallopmiddle1{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -100px -168px;
+
+}
+
+.elliptical .gallopmiddle2{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -205px -168px;
+
+}
+
+.elliptical .gallopmiddle3{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -330px -168px;
+
+}
+
+.elliptical .gallopmiddle4{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -440px -168px;
+}
+
+.elliptical .outoforder{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -545px -168px;
+}
+
+.elliptical .gallopback1{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -100px -168px;
+
+}
+
+.elliptical .gallopback2{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -205px -168px;
+
+}
+
+.elliptical .gallopback3{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -330px -168px;
+
+}
+
+.elliptical .gallopback4{
+height:195px;
+width:103px;
+background-image: url('../images/icons/granola.png');
+background-position: -440px -168px;
+}
+
+.bike .available{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -375px;
+
+
+}
+
+.bike .spinmiddle1{
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -110px -392px;
+*/
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -110px -375px;
+
+}
+
+.bike .spinmiddle2{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -227px -375px;
+
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -392px;
+*/
+}
+
+.bike .spinmiddle3{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -365px -375px;
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -392px;
+*/
+}
+
+.bike .spinmiddle4{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -500px -375px;
+
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -392px;
+*/
+}
+
+.bike .spinback1{
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -110px -392px;
+*/
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -110px -375px;
+
+}
+
+.bike .spinback2{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -227px -375px;
+
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -392px;
+*/
+}
+
+.bike .spinback3{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -365px -375px;
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -392px;
+*/
+}
+
+.bike .spinback4{
+
+height:185px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -500px -375px;
+
+/*
+height:167px;
+width: 105px;
+background-image: url('../images/icons/granola.png');
+background-position: -3px -392px;
+*/
+}
+
+
+#disclaimer{
+height:250px;
+width:800px;
+padding-right:10px;
+}
+
+.smartphone{
+font-size:smaller;
+position:absolute;
+background:url('../images/smartphone.png');
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+padding:13px;
+width:1024px;
+}
+
+#googledesc{
+display:none;
+}
+
+.padded{
+padding:10px;
+}
