@@ -8,4 +8,4 @@ The Nike+ shoe pod is a relatively cheap, affordable wireless impulse detector. 
 
 More to come in the future.
 
-Any questions?  Email me at raryanpur at gmail dot com
+Any questions?  Email me at rameen at cardibo dot com
